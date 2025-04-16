@@ -1,0 +1,3 @@
+name: pulumi-kotlin-skeleton
+runtime: java
+stackConfigDir: stacks
