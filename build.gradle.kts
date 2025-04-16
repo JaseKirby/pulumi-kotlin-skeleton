@@ -18,5 +18,7 @@ kotlin { jvmToolchain(21) }
 tasks.test { useJUnitPlatform() }
 
 application {
-   mainClass = if (project.hasProperty("mainClass")) project.property("mainClass") as String else "pulkot.AppKt"
+  mainClass =
+          if (project.hasProperty("mainClass")) project.property("mainClass") as String
+          else "pulkot.MainKt"
 }
